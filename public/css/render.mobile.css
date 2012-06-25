@@ -93,8 +93,8 @@ span.rnd {
 #home { background:#8c31b7; background:url(../assets/firstBG.jpg) 50% -75px no-repeat fixed;}
 #second { background:#0099CC; background: url(../assets/secondBG.jpg) 50% 0 no-repeat fixed;}
 #third { background:#FFCC00; }
-#fourth { background:#6C9; background: url(../assets/thirdBG.jpg) 50% 0 no-repeat fixed;}
-#fifth { background:#8c31b7;}
+#fourth { background:#333; background: url(../assets/thirdBG.jpg) 50% 0 no-repeat fixed;}
+#fifth { background:#CC5500;}
 
 #home, #second, #third, #fourth, #fifth {min-height:500px;}
 
