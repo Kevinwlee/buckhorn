@@ -13,7 +13,16 @@
 <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
 <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
 
-
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "/mobile.html";
+};
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("/mobile.html");
+};
+//-->
+</script>
 
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
@@ -57,8 +66,8 @@
                             <p><h2>Call today 1 800-555-5555</h2></p>
                             <p><a class="btn" href="#fifth">Contact Us »</a></p>
                         </div>
-                        <!--/span-->
-                  </div>
+                        <!--/span-->           
+                    </div>
                     <!--/row--> 
                 </div>
                 <!--/span--> 
